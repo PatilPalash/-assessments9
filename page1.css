@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(shara.jpg);
+    background-size: cover;
+}
+.logo{
+    padding: 20px 0px 0px 60px;
+    display: inline-block;
+}
+.topnav{
+    margin: 20px 50px 0px 0px;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.a1,.a2,.a3,.a4{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+}
+.material-icons{
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 50%;
+}
+.shara{
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    line-height: 40px;
+}
+.pmain{
+    color: white;
+    line-height: 40px;
+}
+button{
+    background-color: white;
+    border: 0px solid white;
+    padding: 10px 60px 10px 60px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.mid{
+    position: relative;
+    left: 60px;
+    top: 200px;
+}
+.rightcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    float: right;
+    position: relative;
+    bottom: 170px;
+    right: 140px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 9px;
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    transition: 0.5s;
+}
+.box:hover{
+       transform: translateY(-10px);
+}
+#box1{
+    background-image: url(pic-1.png);
+    background-size: cover;
+    line-height: 40px;
+}
+#box2{
+    background-image: url(pic-2.png);
+    background-size: cover;
+    line-height: 40px;
+}
+#box3{
+    background-image: url(pic-3.png);
+    background-size: cover;
+    line-height: 40px;
+}
+#box4{
+    background-image: url(pic-4.png);
+    background-size: cover;
+    line-height: 40px;
+}
+@media (min-width: 250px) and (max-width: 800px) {
+    .topnav{
+        float: right; 
+        display: inline;
+        overflow: hidden;
+    }
+}
+@media (min-width: 250px) and (max-width: 800px) {
+    .rightcontainer{
+        flex-direction: column;
+        background-position: center;
+        position: relative;
+        top: 220px;
+        overflow: hidden;
+    }
+    #box1{
+        width: 400px;
+        font-size: 30px;
+    }
+    #box2{
+        width: 400px;
+        font-size: 30px;
+    }
+    #box3{
+        width: 400px;
+        font-size: 30px;
+    }
+    #box4{
+        width: 400px; font-size: 30px;
+    }
+}
